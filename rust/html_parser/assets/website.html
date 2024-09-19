@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample page for testing HTML tokenizers and parsers">
+    <title>Test HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: navy;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is a comment -->
+    <h1>Welcome to the Test Page</h1>
+
+    <p>This is a <strong>simple</strong> HTML page for testing purposes. You can use it to test how your HTML parser handles different elements.</p>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3 with a nested <a href="#">link</a></li>
+    </ul>
+
+    <ol>
+        <li>First ordered item</li>
+        <li>Second ordered item</li>
+    </ol>
+
+    <img src="image.jpg" alt="Sample image" />
+
+    <a href="https://example.com" target="_blank">External Link</a>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="/submit" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" />
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="highlight">
+        <p>Text inside a div with a <span>span element</span>.</p>
+        <p>This paragraph is styled with a <strong>class</strong>.</p>
+    </div>
+
+    <script>
+        console.log("Testing script execution");
+    </script>
+
+</body>
+</html>
+
